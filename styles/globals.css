@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+@font-face {
+  font-family: "Inconsolata", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap")}
+@font-face {
+  font-family: "Rubik", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Rubik&display=swap');;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media(max-width:660px){
+  .links{
+    display: none;
+  }
+   .menu{
+    display: block;
+    margin-right: 20px;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media(min-width:660px){
+  .dropmenu, .menu{
+    display: none;
+  }
+  .links{
+    display: flex;
+  }
+}
+.dropmenu{
+  position: absolute;
+  right: 1.5rem;
+  top:60px;
+  width: 300px;
+  backdrop-filter:  blur(10px);
+  border-radius: 10px;
+  border-color: white;
+  border-width: 0.1px;
+}
+.dropmenu .saghroun{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
 }
