@@ -10,7 +10,7 @@ import { BsGit } from "react-icons/bs";
 function Skills(props) {
   return (
     <div
-      className="flex-1 justify-center m-20 text-center px-30 py-20 font-Inconsolata leading-8 outline-8 rounded-2xl outline-white shadow-2xl
+      className="lbox z-0 flex-1 justify-center m-20 text-center px-30 py-20 font-Inconsolata leading-8 outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
       <div
@@ -18,7 +18,7 @@ function Skills(props) {
         className="w-full h-300 m-auto flex items-center justify-between"
       >
         
-        <div className="text-5xl flex flex-wrap justify-center gap-16 py-4">
+        <div className="text-5xl flex flex-wrap justify-center gap-16 py-4 ">
         <BiLogoJava />
         <TbBrandCpp />
         <FaPython />

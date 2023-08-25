@@ -8,10 +8,10 @@ function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className=" relative py-2">
-          <nav className=" w-full h-16 max-w-7xl m-auto flex items-center justify-between">
+    <>
+          <nav className="z-10 w-full h-16 max-w-7xl m-auto flex items-center justify-between">
             <div className="">
-              <a className="font-bold text-2xl ml-4" href="#">
+              <a className="font-bold text-3xl ml-4" href="#">
                 Rozee's dev
               </a>
             </div>
@@ -23,10 +23,10 @@ function Nav() {
               setOpen(!open);
             }}/>
           </nav>
-          <div className={`${!open?"hidden ":""} dropmenu`}>
+          <div className={`${!open?"hidden ":""} z-10 dropmenu`}>
             <DropDown display={"flex-col "} saghroun={"saghroun"}/>
           </div>
-        </header>
+          </>
   );
 }
 

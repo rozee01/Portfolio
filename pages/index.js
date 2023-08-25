@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Content from "./Content";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import FaCode from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +18,9 @@ export default function Home() {
       </Head>
       <main className=" font-Inconsolata h-full text-white ">
         <Nav />
-        <Content />
-        <Skills />
+        <Content id="Content"/>
+        <Skills id="Skills"/>
+        <Projects id="Projects"/>
       </main>
     </>
   );

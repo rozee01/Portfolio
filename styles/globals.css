@@ -45,3 +45,19 @@
   justify-content: space-between;
   font-size: large;
 }
+body{
+  background-image: url('bac3.jpg');
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lbox{
+  border-width: 0.1px;
+  backdrop-filter:  blur(10px);
+  border-color: white;
+}
+.cards{
+  border-width: 0.1px;
+  border-color: white;
+}

@@ -5,7 +5,7 @@ import Im from './Im';
 function Content(props) {
     return (
       <div
-      className="flex-1 justify-center m-20 text-center px-30 py-20 font-Inconsolata leading-8 outline-8 rounded-2xl outline-white shadow-2xl
+      className="lbox flex-1 z-0 justify-center m-20 text-center px-30 py-20 font-Inconsolata leading-8 outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
       <div
@@ -15,7 +15,8 @@ function Content(props) {
         <div className='m-auto'>
           <h2 className="text-4xl font-bold text-center pb-10 ">Arij Thabet</h2>
           <h3 className="text-2xl font-bold text-center justify-center flex">
-            Fullstack developer, competitive programming enthusiast and software engineering student eager
+            Fullstack developer, competitive programming enthusiast <br>
+            </br>and software engineering student eager
             to learn all about computer science
           </h3>
         </div>
@@ -24,8 +25,8 @@ function Content(props) {
         </div>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-4">
-        <AiFillGithub />
-        <AiFillLinkedin />
+        <a href='https://www.github.com/rozee01' target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+        <a href='https://www.linkedin.com/in/arij-thabet-193677257' target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
         <AiFillMail />
       </div>
     </div>
