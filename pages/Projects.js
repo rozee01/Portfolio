@@ -10,44 +10,56 @@ function Projects(props) {
         Projects/Experience
       </h2>
       <div
-        id="container"
+        id="container1"
         className="w-full m-auto flex items-center justify-between px-6"
       >
         <div
           id="projet_web"
-          className="cards my-3  w-auto flex flex-col leading-8 outline-8 rounded-2xl shadow-2xl"
+          className="cards p-3 mx-3 w-1/2 flex flex-col leading-8 outline-8 rounded-2xl shadow-2xl"
         >
-          <div className="text-2xl font-bold text-center pb-10">
-            Travel social network
-          </div>
-          <div className="text-l font-normal text-center justify-center flex">
-            A social network where users can see suggested destinations, comment
-            them and create their own
-          </div>
+          <a href="https://github.com/rozee01/projet_tp_web" target="_blank" rel="noopener noreferrer">
+            <div className="text-2xl font-bold text-center pb-10">
+              Travel social network
+            </div>
+            <div className="text-xl font-sans text-center justify-center flex ">
+              A social network where users can see suggested destinations,
+              comment them and create their own
+            </div>
+          </a>
         </div>
+
         <div
           id="stage"
-          className="my-auto w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
+          className="p-3 mx-3 w-1/2 cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
         >
           <div className="text-2xl font-bold text-center pb-10">
             Summer internship
           </div>
-          <div className="text-l font-normal text-center justify-center flex">
-            Summer internship at Papritech company where i was charged of creating a web server interface that allows users to update their ESP32 microcontrollers
-          </div>
-          
-        </div>
-        <div
-          id="stage"
-          className="my-3 w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
-        >
-          <div className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
-            YouTube to MP3 converter 
-          </div>
-          <div className="text-l font-normal text-center justify-center flex">
-            Python application with a GUI that allows users to convert YouTube videos to MP3 files
+          <div className="text-xl font-sans text-center justify-center flex">
+            Summer internship at Papritech company where i created a web server
+            interface that allows users to update their ESP32 microcontrollers
           </div>
         </div>
+      </div>
+
+      <div
+        id="container2"
+        className="p-3 w-1/2 mx-3 flex items-center justify-between px-6"
+      >
+        <a href="https://github.com/rozee01/youtube-to-mp3-converter" target="_blank" rel="noopener noreferrer">
+          <div
+            id="python"
+            className="my-3 w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
+          >
+            <div className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
+              YouTube to MP3 converter
+            </div>
+            <div className="text-l font-normal text-center justify-center flex">
+              Python application with a GUI that allows users to convert YouTube
+              videos to MP3 files
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );

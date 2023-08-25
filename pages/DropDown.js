@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 function DropDown(props) {
     return (
-        <div className='z-10'>
+        <div className='z-10 font-semibold text-xl'>
         <ul className={`${props.display}" gap-14  ${props.saghroun}  "`}>
           <li >
               <Link to="#Skills" smooth={true} duration={500}>Skills</Link>

@@ -7,8 +7,8 @@
   font-family: "Inconsolata", monospace;
   src: url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap")}
 @font-face {
-  font-family: "Rubik", sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Rubik&display=swap');;
+  font-family: "Nunito", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 }
 
 @media(max-width:660px){

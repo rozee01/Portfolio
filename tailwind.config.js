@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Inconsolata: ["Inconsolata", "monospace"],
-        Rubik: ["Rubik", "sans"],
+        Nunito: ["Nunito", "sans"],
       },
     },
   },
