@@ -3,21 +3,26 @@ import React from "react";
 function Projects(props) {
   return (
     <div
-      className="lbox z-0 flex-1 justify-center m-20 text-center px-30 py-20 leading-8 outline-8 rounded-2xl outline-white shadow-2xl
+    id="Projects"
+      className="lbox z-0 flex-1 justify-center m-20 text-center px-30 py-20 outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
       <h2 className="text-4xl font-bold text-center pb-10">
-        Projects/Experience
+        Projects / Experience
       </h2>
       <div
         id="container1"
-        className="w-full m-auto flex items-center justify-between px-6"
+        className="projets1 w-full m-auto flex items-center justify-between px-6"
       >
         <div
           id="projet_web"
-          className="cards p-3 mx-3 w-1/2 flex flex-col leading-8 outline-8 rounded-2xl shadow-2xl"
+          className="cards p-3 mx-3 w-1/2 flex flex-col outline-8 rounded-2xl shadow-2xl"
         >
-          <a href="https://github.com/rozee01/projet_tp_web" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/rozee01/projet_tp_web"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="text-2xl font-bold text-center pb-10">
               Travel social network
             </div>
@@ -46,7 +51,11 @@ function Projects(props) {
         id="container2"
         className="p-3 w-1/2 mx-3 flex items-center justify-between px-6"
       >
-        <a href="https://github.com/rozee01/youtube-to-mp3-converter" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/rozee01/youtube-to-mp3-converter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div
             id="python"
             className="my-3 w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
@@ -54,7 +63,7 @@ function Projects(props) {
             <div className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
               YouTube to MP3 converter
             </div>
-            <div className="text-l font-normal text-center justify-center flex">
+            <div className="text-xl font-sans text-center justify-center flex">
               Python application with a GUI that allows users to convert YouTube
               videos to MP3 files
             </div>

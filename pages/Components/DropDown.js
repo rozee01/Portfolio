@@ -1,17 +1,19 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 function DropDown(props) {
+  
     return (
+      
         <div className='z-10 font-semibold text-xl'>
         <ul className={`${props.display}" gap-14  ${props.saghroun}  "`}>
-          <li >
-              <Link to="#Skills" smooth={true} duration={500}>Skills</Link>
+              <li>
+                <a href='#Skills'>
+              Skills</a>
             </li>
             <li >
-              <Link to="Projects" smooth={true} duration={500}>Projects</Link>
+                <a href='#Projects'>Projects</a>
             </li>
             <li >
-              <Link to="Projects" smooth={true} duration={500}>Certifications</Link>
+                <a href='#Resume' >Resume</a>
             </li>
           </ul>
         </div>
