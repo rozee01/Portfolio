@@ -12,9 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      //configure our desired font so that we can use it in className
       fontFamily: {
-        Inconsolata: ["Inconsolata", "monospace"],
-        Nunito: ["Nunito", "sans"],
+        Inconsolata: ["Inconsolata", "monospace"]
       },
     },
   },

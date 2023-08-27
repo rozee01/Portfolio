@@ -1,13 +1,15 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Im from "./Im";
-function Content(props) {
+
+function Content() {
   return (
     <div
       id="Content"
       className="lbox flex-1 z-0 justify-center m-20 text-center px-30 py-20 font-Inconsolata outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
+      {/* first container on the top */}
       <div
         id="container"
         className="partie1 w-full h-300 m-auto flex items-center justify-between"
@@ -24,6 +26,7 @@ function Content(props) {
           <Im />
         </div>
       </div>
+      {/* second container on the bottom */}
       <div className="contact text-5xl flex justify-center gap-16 py-4">
         <a
           href="https://www.github.com/rozee01"

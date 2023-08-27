@@ -2,20 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/*@font-face rule used to define the custom fonts used in this app*/
 @font-face {
   font-family: "Inconsolata", monospace;
   src: url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap")}
-@font-face {
-  font-family: "Nunito", sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
-}
 
+/* when the screen's width is small*/
 @media(max-width:660px){
   .links{
     display: none;
   }
-   .menu{
+   .menu_icon{
     display: block;
     margin-right: 20px;
   }
@@ -48,6 +45,7 @@
   }
 
 }
+/* when the screen's width is no longer small*/
 @media(min-width:660px){
   .dropmenu, .menu{
     display: none;
@@ -70,7 +68,7 @@
   border-color: white;
   border-width: 0.1px;
 }
-.dropmenu .saghroun{
+.dropmenu .small{
   padding: 0.7rem;
   display: flex;
   align-items: center;

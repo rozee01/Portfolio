@@ -16,7 +16,7 @@ function Skills(props) {
   return (
     <div
       id="Skills"
-      className="lbox z-0 justify-center m-20 text-center px-30 py-20 font-Inconsolata outline-8 rounded-2xl outline-white shadow-2xl
+      className=" lbox z-0 justify-center m-20 text-center px-30 py-20 font-Inconsolata outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
       <div

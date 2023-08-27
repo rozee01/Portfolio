@@ -3,13 +3,14 @@ import React from "react";
 function Projects(props) {
   return (
     <div
-    id="Projects"
+      id="Projects"
       className="lbox z-0 flex-1 justify-center m-20 text-center px-30 py-20 outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
       <h2 className="text-4xl font-bold text-center pb-10">
         Projects / Experience
       </h2>
+      {/* container 1 contains 2 projects divided in 2 cards */}
       <div
         id="container1"
         className="projets1 w-full m-auto flex items-center justify-between px-6"
@@ -46,7 +47,7 @@ function Projects(props) {
           </div>
         </div>
       </div>
-
+      {/* container 2 contains 1 project that takes half of the width of the page for the aesthetic */}
       <div
         id="container2"
         className="p-3 w-1/2 mx-3 flex items-center justify-between px-6"
