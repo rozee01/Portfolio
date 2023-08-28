@@ -28,9 +28,11 @@ function Nav(props) {
   return (
     <>
       <nav
-        className={`${
+        className={
+          `${
           pos > 0 ? "navigation " : " "
-        } sticky top-0 z-10 w-full h-16 max-w-7xl p-auto flex items-center justify-between`}
+        } 
+        sticky top-0 z-10 w-full h-16 p-auto flex items-center justify-between`}
       >
         <div className="font-bold text-3xl ml-4">
           <Link
@@ -41,7 +43,6 @@ function Nav(props) {
             duration={500}
             className="cursor-pointer"
           >
-            {console.log(pos)}
             Rozee's Dev
           </Link>
         </div>
@@ -54,7 +55,7 @@ function Nav(props) {
             setOpen(!open);
           }}
         />
-      
+      </nav>
 
       <div className={`${!open ? "hidden " : ""} z-10 dropmenu sticky top-0 `}>
         {/* the small prop is used to change the display of the menu when the screen is small and make the 
@@ -65,8 +66,9 @@ function Nav(props) {
           open={open}
           setOpen={setOpen}
         />
-      </div></nav>
-    </>
+      </div>
+      
+      </>
   );
 }
 

@@ -8,8 +8,6 @@ import Resume from "./Components/Resume";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const ContentRef = useRef(null);
   const SkillsRef = useRef(null);

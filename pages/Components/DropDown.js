@@ -10,7 +10,7 @@ function DropDown(props) {
   }
   
   return (
-    <div className="z-10 font-semibold text-xl justify-between">
+    <div className=" z-10 font-semibold text-xl justify-between">
       <ul className={`${props.display} gap-14  ${props.small}  `}>
         <li>
           {/*Link from react-scroll is used  to control the scroll to the different sections of the page */}
