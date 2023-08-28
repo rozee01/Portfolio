@@ -7,7 +7,7 @@ function Projects(props) {
       className="lbox z-0 flex-1 justify-center m-20 text-center px-30 py-20 outline-8 rounded-2xl outline-white shadow-2xl
        "
     >
-      <h2 className="text-4xl font-bold text-center pb-10">
+      <h2 id='text1'className="text-4xl font-bold text-center pb-10">
         Projects / Experience
       </h2>
       {/* container 1 contains 2 projects divided in 2 cards */}
@@ -24,10 +24,10 @@ function Projects(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="text-2xl font-bold text-center pb-10">
+            <div id='text11'className="text-2xl font-bold text-center pb-10">
               Travel social network
             </div>
-            <div className="text-xl font-sans text-center justify-center flex ">
+            <div id='text2'className="text-xl font-sans text-center justify-center flex ">
               A social network where users can see suggested destinations,
               comment them and create their own
             </div>
@@ -38,10 +38,10 @@ function Projects(props) {
           id="stage"
           className="p-3 mx-3 w-1/2 cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
         >
-          <div className="text-2xl font-bold text-center pb-10">
+          <div id='text11'className="text-2xl font-bold text-center pb-10">
             Summer internship
           </div>
-          <div className="text-xl font-sans text-center justify-center flex">
+          <div id='text2'className="text-xl font-sans text-center justify-center flex">
             Summer internship at Papritech company where i created a web server
             interface that allows users to update their ESP32 microcontrollers
           </div>
@@ -61,10 +61,10 @@ function Projects(props) {
             id="python"
             className="my-3 w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
           >
-            <div className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
+            <div id='text11'className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
               YouTube to MP3 converter
             </div>
-            <div className="text-xl font-sans text-center justify-center flex">
+            <div id='text2'className="text-xl font-sans text-center justify-center flex">
               Python application with a GUI that allows users to convert YouTube
               videos to MP3 files
             </div>

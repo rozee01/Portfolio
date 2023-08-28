@@ -15,8 +15,8 @@ function Content() {
         className="partie1 w-full h-300 m-auto flex items-center justify-between"
       >
         <div className="m-auto">
-          <h2 className="text-4xl font-bold text-center pb-10 ">Arij Thabet</h2>
-          <h3 className="text-2xl font-sans text-center justify-center flex px-2">
+          <h2 id='text1' className="text-4xl font-bold text-center pb-10 ">Arij Thabet</h2>
+          <h3 id='text2' className="text-2xl font-sans text-center justify-center flex px-2">
             Fullstack developer, competitive programming enthusiast <br></br>and
             software engineering student eager to learn all about computer
             science

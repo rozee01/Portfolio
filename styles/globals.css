@@ -9,6 +9,18 @@
 
 /* when the screen's width is small*/
 @media(max-width:660px){
+  /*titles of the paragraphs*/
+  #text1{
+    font-size: x-large;
+  }
+  /*content of the paragraphs*/
+  #text2{
+    font-size: medium;
+  }
+  /*titles of the cards*/
+  #text11{
+    font-size: large;
+  }
   .links{
     display: none;
   }
@@ -30,9 +42,13 @@
   .contact{
     gap: 5px;
   }
-  .skills_icon{
+  .skills{
     display: flex;
     flex-direction: column-reverse;
+  }
+  .skills_icons{
+    font-size: xx-large;
+    gap: 8px;
   }
   .projets1{
     display: flex;
@@ -47,8 +63,10 @@
 }
 /* when the screen's width is no longer small*/
 @media(min-width:660px){
-  .dropmenu, .menu{
+  .dropmenu, .menu_icon{
     display: none;
+    border-bottom: 0.1px solid white;
+
   }
   .links{
     display: flex;
@@ -68,12 +86,19 @@
   border-color: white;
   border-width: 0.1px;
 }
+
+.navigation{
+  backdrop-filter:  blur(10px);
+  border-bottom: 0.1px solid white;
+  border-width: 100%;
+} 
 .dropmenu .small{
   padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: large;
+  backdrop-filter:  blur(10px);
 }
 body{
   background-image: url('bac3.jpg');
