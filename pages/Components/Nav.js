@@ -43,7 +43,7 @@ function Nav(props) {
             duration={500}
             className="cursor-pointer"
           >
-            Rozee's Dev
+            Rozee&apos;s Dev
           </Link>
         </div>
         <div className="links mr-4">
