@@ -42,7 +42,7 @@ function Projects(props) {
             Summer internship
           </div>
           <div id="text2" className="text-xl font-sans text-center justify-center flex">
-            Summer internship at Papritech company where i created a web server
+            Summer internship at Papritech company where I created a web server
             interface that allows users to update their ESP32 microcontrollers
           </div>
         </div>
