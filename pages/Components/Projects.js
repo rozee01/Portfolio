@@ -24,10 +24,10 @@ function Projects(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div id='text11'className="text-2xl font-bold text-center pb-10">
+            <div id="text11" className="text-2xl font-bold text-center pb-10">
               Travel social network
             </div>
-            <div id='text2'className="text-xl font-sans text-center justify-center flex ">
+            <div id="text2" className="text-xl font-sans text-center justify-center flex ">
               A social network where users can see suggested destinations,
               comment them and create their own
             </div>
@@ -38,10 +38,10 @@ function Projects(props) {
           id="stage"
           className="p-3 mx-3 w-1/2 cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
         >
-          <div id='text11'className="text-2xl font-bold text-center pb-10">
+          <div id="text11" className="text-2xl font-bold text-center pb-10">
             Summer internship
           </div>
-          <div id='text2'className="text-xl font-sans text-center justify-center flex">
+          <div id="text2" className="text-xl font-sans text-center justify-center flex">
             Summer internship at Papritech company where i created a web server
             interface that allows users to update their ESP32 microcontrollers
           </div>
@@ -61,10 +61,10 @@ function Projects(props) {
             id="python"
             className="my-3 w-auto cards flex flex-col leading-8 outline-8 rounded-2xl  shadow-2xl"
           >
-            <div id='text11'className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
+            <div id="text11" className="text-2xl font-bold text-center pb-10 font-Inconsolata ">
               YouTube to MP3 converter
             </div>
-            <div id='text2'className="text-xl font-sans text-center justify-center flex">
+            <div id="text2" className="text-xl font-sans text-center justify-center flex">
               Python application with a GUI that allows users to convert YouTube
               videos to MP3 files
             </div>
